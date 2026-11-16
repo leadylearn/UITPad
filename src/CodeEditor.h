@@ -1,0 +1,16 @@
+#ifndef CODEEDITOR_H
+#define CODEEDITOR_H
+
+#include <QPlainTextEdit>
+
+class QWidget;
+
+class CodeEditor : public QPlainTextEdit
+{
+    Q_OBJECT
+
+public:
+    explicit CodeEditor(QWidget *parent = nullptr);
+};
+
+#endif // CODEEDITOR_H

@@ -1,0 +1,14 @@
+# Génération et compilation CMake
+/build/
+/build-mingw/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Qt Creator / IDE
+.idea/
+.vscode/
+*.user
+*.user.*
